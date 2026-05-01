@@ -50,10 +50,6 @@ https://github.com/xcxseric-ux/seeking-sponsor
 
 本地脚手架副本（便于在 vault 内编辑后再推送）：`Projects/06-seeking-sponsor-open/`。
 
-文档型仓库的组织方式可参考 HermeSchool（Hermes 深度指南），仅为结构示例：
-
-https://github.com/xcxseric-ux/HermeSchool
-
 ---
 
 ## 核心理念

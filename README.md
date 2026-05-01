@@ -9,14 +9,6 @@
 - 主页：https://github.com/xcxseric-ux/seeking-sponsor
 - 克隆：`git clone https://github.com/xcxseric-ux/seeking-sponsor.git`
 
-## 与 HermeSchool 的关系
-
-**HermeSchool**（Hermes 深度指南）仅作为「文档型开源仓库」的组织参考示例，例如 README、目录清晰度、LICENSE 等：
-
-https://github.com/xcxseric-ux/HermeSchool
-
-本仓库主题独立，与 HermeSchool 内容无依赖关系。
-
 ## 后续更新（本地已有 clone 时）
 
 ```bash
