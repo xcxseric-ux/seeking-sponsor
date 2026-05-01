@@ -4,46 +4,37 @@
 
 文档正文见仓库根目录的 **SKILL.md**。
 
+## 仓库地址
+
+- 主页：https://github.com/xcxseric-ux/seeking-sponsor
+- 克隆：`git clone https://github.com/xcxseric-ux/seeking-sponsor.git`
+
 ## 与 HermeSchool 的关系
 
-**HermeSchool**（Hermes 深度指南）仅作为「文档型开源仓库」的组织参考示例，例如 README、目录清晰度、是否单独 LICENSE 等：
+**HermeSchool**（Hermes 深度指南）仅作为「文档型开源仓库」的组织参考示例，例如 README、目录清晰度、LICENSE 等：
 
 https://github.com/xcxseric-ux/HermeSchool
 
-本仓库是**独立**主题（赞助 / 合作叙事技能），与 HermeSchool 代码与内容无依赖关系。
+本仓库主题独立，与 HermeSchool 内容无依赖关系。
 
-## 在 GitHub 上新建本仓库（你需要自己在网页上操作）
-
-我无法替你登录 GitHub 创建远程仓库；按下面做一次即可得到「独立开源仓库地址」。
-
-1. 打开 GitHub，登录账号。
-2. 右上角 **New repository**。
-3. **Repository name** 自定（例如 `seeking-sponsor`）。
-4. **Public**。若本目录已有 `README.md`，建议**不要**勾选 “Add a README”，避免与本地推送冲突。
-5. 创建完成后，复制页面上的仓库 URL（形如 `https://github.com/<你的用户名>/<仓库名>.git`）。
-
-## 首次推送（在本机此目录执行）
-
-若当前目录落在 Obsidian 大仓库内部，直接 `git init` 会形成嵌套仓库；更稳妥的做法是：把整个 `06-seeking-sponsor-open` 文件夹复制到磁盘上任意独立路径，再在该副本里执行下列命令（把第一行路径换成你的实际路径）。
+## 后续更新（本地已有 clone 时）
 
 ```bash
-cd /path/to/06-seeking-sponsor-open
-git init
-git add README.md LICENSE SKILL.md .gitignore
-git commit -m "Initial publish: seeking-sponsor skill"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-git push -u origin main
+cd /path/to/seeking-sponsor-open
+# 编辑 SKILL.md / README.md 后：
+git add -A
+git commit -m "chore: update SKILL"
+git push origin main
 ```
 
-将 `<你的用户名>`、`<仓库名>` 换成你在上一步创建的仓库信息。
+若在 Obsidian 大仓库内维护脚手架副本 `Projects/06-seeking-sponsor-open/`，注意该目录下已有独立 `.git`，不要与外层 vault 仓库混淆。
 
 ## 与 Obsidian 知识库的同步
 
-Obsidian vault 里可能另有 canonical 副本（例如 vault 根目录的 `seeking-sponsor.md`）。更新流程建议：
+Vault 里可有 canonical 笔记（例如根目录 `seeking-sponsor.md`）。常见流程：
 
-- 以 vault 为编辑主阵地时：改 vault → 再复制覆盖本目录 `SKILL.md` → commit / push。
-- 若以本仓库为主阵地：改 `SKILL.md` → 按需反向合并回 vault。
+- 以 Vault 为主：改 vault → 覆盖本仓库 `SKILL.md` → commit / push。
+- 以本仓库为主：改 `SKILL.md` → 按需合并回 vault。
 
 ## 免责声明
 

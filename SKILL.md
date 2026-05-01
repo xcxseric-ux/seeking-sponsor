@@ -42,13 +42,17 @@ triggers:
 
 ## 开源发布（独立 GitHub 仓库）
 
-若要把本技能打成**独立开源仓库**（读者在 GitHub 上看到的是你自己的仓库地址，而不是 vault 里的笔记路径），请在本机使用脚手架目录 **`Projects/06-seeking-sponsor-open/`**：内含 `README.md`、`LICENSE`、`SKILL.md`，可直接 `git init` 后推到你在 GitHub **新建**的空仓库。
+公开仓库（与 vault 根目录 `seeking-sponsor.md` 同源同步的是其中的 **SKILL.md**）：
 
-文档型仓库的组织方式可参考 HermeSchool（Hermes 深度指南），仅为结构示例，与本技能内容无关：
+https://github.com/xcxseric-ux/seeking-sponsor
+
+克隆：`git clone https://github.com/xcxseric-ux/seeking-sponsor.git`
+
+本地脚手架副本（便于在 vault 内编辑后再推送）：`Projects/06-seeking-sponsor-open/`。
+
+文档型仓库的组织方式可参考 HermeSchool（Hermes 深度指南），仅为结构示例：
 
 https://github.com/xcxseric-ux/HermeSchool
-
-创建远程仓库必须在 GitHub 网页（或已登录的 `gh repo create`）上由你本人操作；创建完成后把远程 URL 配进 `git remote add origin ...` 再推送，即可得到例如 `https://github.com/<用户名>/<仓库名>` 的公开地址。
 
 ---
 
